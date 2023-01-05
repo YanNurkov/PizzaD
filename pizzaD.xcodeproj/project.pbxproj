@@ -10,20 +10,66 @@
 		2C05356E28F89CB200284E9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05356D28F89CB200284E9E /* AppDelegate.swift */; };
 		2C05357028F89CB200284E9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05356F28F89CB200284E9E /* SceneDelegate.swift */; };
 		2C05357228F89CB200284E9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05357128F89CB200284E9E /* ViewController.swift */; };
-		2C05357528F89CB200284E9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C05357328F89CB200284E9E /* Main.storyboard */; };
 		2C05357728F89CB400284E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C05357628F89CB400284E9E /* Assets.xcassets */; };
 		2C05357A28F89CB400284E9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C05357828F89CB400284E9E /* LaunchScreen.storyboard */; };
+		2C05358228F89E0900284E9E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05358128F89E0900284E9E /* TabBarController.swift */; };
+		2C05358728F8A56300284E9E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05358628F8A56300284E9E /* Model.swift */; };
+		2C05358928F8B00A00284E9E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05358828F8B00A00284E9E /* MainView.swift */; };
+		2C05358B28F8B1B900284E9E /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05358A28F8B1B900284E9E /* MainModel.swift */; };
+		2C53DE7B293765B7009B99C1 /* PizzaDModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C53DE79293765B7009B99C1 /* PizzaDModel.xcdatamodeld */; };
+		2C53DE7D29376F30009B99C1 /* ModelCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53DE7C29376F30009B99C1 /* ModelCoreData.swift */; };
+		2C53DE882937DB97009B99C1 /* NewOrder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53DE862937DB97009B99C1 /* NewOrder+CoreDataClass.swift */; };
+		2C53DE892937DB97009B99C1 /* NewOrder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53DE872937DB97009B99C1 /* NewOrder+CoreDataProperties.swift */; };
+		2C53DE8C2937EA80009B99C1 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53DE8B2937EA80009B99C1 /* ContactsViewController.swift */; };
+		2C53DE8E2938B8A9009B99C1 /* AboutAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53DE8D2938B8A9009B99C1 /* AboutAppViewController.swift */; };
+		2C53DE902938F085009B99C1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53DE8F2938F085009B99C1 /* MapViewController.swift */; };
+		2C53DE9229390A71009B99C1 /* LegalDocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53DE9129390A71009B99C1 /* LegalDocViewController.swift */; };
+		2C53DE9429392D8A009B99C1 /* VKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53DE9329392D8A009B99C1 /* VKViewController.swift */; };
+		2CB386D629295086005CBF5F /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB386D529295086005CBF5F /* CitiesViewController.swift */; };
+		2CB386D929338BD2005CBF5F /* PizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB386D829338BD2005CBF5F /* PizzaViewController.swift */; };
+		2CB386DC293637EB005CBF5F /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB386DB293637EB005CBF5F /* BasketViewController.swift */; };
+		2CB386E029367DF4005CBF5F /* BasketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB386DF29367DF4005CBF5F /* BasketTableViewCell.swift */; };
+		2CB9D5652902E5B800AA70DA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9D5642902E5B800AA70DA /* TableViewCell.swift */; };
+		2CB9D5672902F27A00AA70DA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9D5662902F27A00AA70DA /* CollectionViewCell.swift */; };
+		2CB9D56B29033D1800AA70DA /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9D56A29033D1800AA70DA /* Header.swift */; };
+		2CD65B26290872E600B7D8DF /* CollectionViewCellAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD65B25290872E600B7D8DF /* CollectionViewCellAction.swift */; };
+		2CD65B28290874F500B7D8DF /* TableViewCellAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD65B27290874F500B7D8DF /* TableViewCellAction.swift */; };
+		31FF3696DB3639E9E3889917 /* Pods_pizzaD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD74268FF7C6C1AADB55727 /* Pods_pizzaD.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29AF50673A542496702EB560 /* Pods-pizzaD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pizzaD.release.xcconfig"; path = "Target Support Files/Pods-pizzaD/Pods-pizzaD.release.xcconfig"; sourceTree = "<group>"; };
+		2C028A19C528C5F5836AD5B7 /* Pods-pizzaD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pizzaD.debug.xcconfig"; path = "Target Support Files/Pods-pizzaD/Pods-pizzaD.debug.xcconfig"; sourceTree = "<group>"; };
 		2C05356A28F89CB200284E9E /* pizzaD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pizzaD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C05356D28F89CB200284E9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C05356F28F89CB200284E9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2C05357128F89CB200284E9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C05357428F89CB200284E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C05357628F89CB400284E9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C05357928F89CB400284E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C05357B28F89CB400284E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C05358128F89E0900284E9E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		2C05358628F8A56300284E9E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2C05358828F8B00A00284E9E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2C05358A28F8B1B900284E9E /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		2C53DE7A293765B7009B99C1 /* PizzaDModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PizzaDModel.xcdatamodel; sourceTree = "<group>"; };
+		2C53DE7C29376F30009B99C1 /* ModelCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCoreData.swift; sourceTree = "<group>"; };
+		2C53DE862937DB97009B99C1 /* NewOrder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewOrder+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		2C53DE872937DB97009B99C1 /* NewOrder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewOrder+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		2C53DE8B2937EA80009B99C1 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		2C53DE8D2938B8A9009B99C1 /* AboutAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppViewController.swift; sourceTree = "<group>"; };
+		2C53DE8F2938F085009B99C1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2C53DE9129390A71009B99C1 /* LegalDocViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalDocViewController.swift; sourceTree = "<group>"; };
+		2C53DE9329392D8A009B99C1 /* VKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKViewController.swift; sourceTree = "<group>"; };
+		2CB386D529295086005CBF5F /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
+		2CB386D829338BD2005CBF5F /* PizzaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaViewController.swift; sourceTree = "<group>"; };
+		2CB386DB293637EB005CBF5F /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		2CB386DF29367DF4005CBF5F /* BasketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketTableViewCell.swift; sourceTree = "<group>"; };
+		2CB9D5642902E5B800AA70DA /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2CB9D5662902F27A00AA70DA /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		2CB9D56A29033D1800AA70DA /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		2CD65B25290872E600B7D8DF /* CollectionViewCellAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellAction.swift; sourceTree = "<group>"; };
+		2CD65B27290874F500B7D8DF /* TableViewCellAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellAction.swift; sourceTree = "<group>"; };
+		EFD74268FF7C6C1AADB55727 /* Pods_pizzaD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pizzaD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FF3696DB3639E9E3889917 /* Pods_pizzaD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +89,8 @@
 			children = (
 				2C05356C28F89CB200284E9E /* pizzaD */,
 				2C05356B28F89CB200284E9E /* Products */,
+				A332C002CB3D7588C7F0EAA2 /* Pods */,
+				F74CECB258C9F161BCD1E3C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +105,117 @@
 		2C05356C28F89CB200284E9E /* pizzaD */ = {
 			isa = PBXGroup;
 			children = (
+				2C53DE862937DB97009B99C1 /* NewOrder+CoreDataClass.swift */,
+				2C53DE872937DB97009B99C1 /* NewOrder+CoreDataProperties.swift */,
+				2C53DE8A2937EA4F009B99C1 /* Contacts */,
+				2CB386DA29363789005CBF5F /* BasketView */,
+				2CB386D729338BAF005CBF5F /* pizzaView */,
+				2CB386D029294F36005CBF5F /* Cities */,
+				2C05358528F8A4E200284E9E /* Controller */,
+				2C05358428F8A4D400284E9E /* View */,
+				2C05358328F8A4CB00284E9E /* Model */,
 				2C05356D28F89CB200284E9E /* AppDelegate.swift */,
 				2C05356F28F89CB200284E9E /* SceneDelegate.swift */,
-				2C05357128F89CB200284E9E /* ViewController.swift */,
-				2C05357328F89CB200284E9E /* Main.storyboard */,
 				2C05357628F89CB400284E9E /* Assets.xcassets */,
 				2C05357828F89CB400284E9E /* LaunchScreen.storyboard */,
 				2C05357B28F89CB400284E9E /* Info.plist */,
+				2C53DE782937656D009B99C1 /* CoreData */,
 			);
 			path = pizzaD;
+			sourceTree = "<group>";
+		};
+		2C05358328F8A4CB00284E9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C05358628F8A56300284E9E /* Model.swift */,
+				2C05358A28F8B1B900284E9E /* MainModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C05358428F8A4D400284E9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C05358828F8B00A00284E9E /* MainView.swift */,
+				2CB9D5642902E5B800AA70DA /* TableViewCell.swift */,
+				2CB9D5662902F27A00AA70DA /* CollectionViewCell.swift */,
+				2CD65B25290872E600B7D8DF /* CollectionViewCellAction.swift */,
+				2CB9D56A29033D1800AA70DA /* Header.swift */,
+				2CD65B27290874F500B7D8DF /* TableViewCellAction.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C05358528F8A4E200284E9E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C05357128F89CB200284E9E /* ViewController.swift */,
+				2C05358128F89E0900284E9E /* TabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C53DE782937656D009B99C1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2C53DE79293765B7009B99C1 /* PizzaDModel.xcdatamodeld */,
+				2C53DE7C29376F30009B99C1 /* ModelCoreData.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		2C53DE8A2937EA4F009B99C1 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				2C53DE8B2937EA80009B99C1 /* ContactsViewController.swift */,
+				2C53DE8D2938B8A9009B99C1 /* AboutAppViewController.swift */,
+				2C53DE8F2938F085009B99C1 /* MapViewController.swift */,
+				2C53DE9129390A71009B99C1 /* LegalDocViewController.swift */,
+				2C53DE9329392D8A009B99C1 /* VKViewController.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		2CB386D029294F36005CBF5F /* Cities */ = {
+			isa = PBXGroup;
+			children = (
+				2CB386D529295086005CBF5F /* CitiesViewController.swift */,
+			);
+			path = Cities;
+			sourceTree = "<group>";
+		};
+		2CB386D729338BAF005CBF5F /* pizzaView */ = {
+			isa = PBXGroup;
+			children = (
+				2CB386D829338BD2005CBF5F /* PizzaViewController.swift */,
+			);
+			path = pizzaView;
+			sourceTree = "<group>";
+		};
+		2CB386DA29363789005CBF5F /* BasketView */ = {
+			isa = PBXGroup;
+			children = (
+				2CB386DB293637EB005CBF5F /* BasketViewController.swift */,
+				2CB386DF29367DF4005CBF5F /* BasketTableViewCell.swift */,
+			);
+			path = BasketView;
+			sourceTree = "<group>";
+		};
+		A332C002CB3D7588C7F0EAA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C028A19C528C5F5836AD5B7 /* Pods-pizzaD.debug.xcconfig */,
+				29AF50673A542496702EB560 /* Pods-pizzaD.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F74CECB258C9F161BCD1E3C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFD74268FF7C6C1AADB55727 /* Pods_pizzaD.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C05357E28F89CB400284E9E /* Build configuration list for PBXNativeTarget "pizzaD" */;
 			buildPhases = (
+				FD858A27ACA22E9FCB7DA38C /* [CP] Check Pods Manifest.lock */,
 				2C05356628F89CB200284E9E /* Sources */,
 				2C05356728F89CB200284E9E /* Frameworks */,
 				2C05356828F89CB200284E9E /* Resources */,
+				6FBA76AF828772C754BAA4AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +280,89 @@
 			files = (
 				2C05357A28F89CB400284E9E /* LaunchScreen.storyboard in Resources */,
 				2C05357728F89CB400284E9E /* Assets.xcassets in Resources */,
-				2C05357528F89CB200284E9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FBA76AF828772C754BAA4AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pizzaD/Pods-pizzaD-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pizzaD/Pods-pizzaD-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pizzaD/Pods-pizzaD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD858A27ACA22E9FCB7DA38C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pizzaD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C05356628F89CB200284E9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C53DE8E2938B8A9009B99C1 /* AboutAppViewController.swift in Sources */,
+				2CB386DC293637EB005CBF5F /* BasketViewController.swift in Sources */,
+				2C53DE7B293765B7009B99C1 /* PizzaDModel.xcdatamodeld in Sources */,
+				2CB386E029367DF4005CBF5F /* BasketTableViewCell.swift in Sources */,
+				2C53DE9429392D8A009B99C1 /* VKViewController.swift in Sources */,
+				2CB9D56B29033D1800AA70DA /* Header.swift in Sources */,
+				2C53DE7D29376F30009B99C1 /* ModelCoreData.swift in Sources */,
+				2CB386D929338BD2005CBF5F /* PizzaViewController.swift in Sources */,
+				2C05358728F8A56300284E9E /* Model.swift in Sources */,
+				2C53DE892937DB97009B99C1 /* NewOrder+CoreDataProperties.swift in Sources */,
+				2C53DE9229390A71009B99C1 /* LegalDocViewController.swift in Sources */,
+				2C53DE902938F085009B99C1 /* MapViewController.swift in Sources */,
+				2C53DE8C2937EA80009B99C1 /* ContactsViewController.swift in Sources */,
+				2C53DE882937DB97009B99C1 /* NewOrder+CoreDataClass.swift in Sources */,
+				2CB9D5652902E5B800AA70DA /* TableViewCell.swift in Sources */,
+				2CB9D5672902F27A00AA70DA /* CollectionViewCell.swift in Sources */,
 				2C05357228F89CB200284E9E /* ViewController.swift in Sources */,
+				2C05358928F8B00A00284E9E /* MainView.swift in Sources */,
+				2CD65B26290872E600B7D8DF /* CollectionViewCellAction.swift in Sources */,
+				2C05358B28F8B1B900284E9E /* MainModel.swift in Sources */,
+				2C05358228F89E0900284E9E /* TabBarController.swift in Sources */,
+				2CD65B28290874F500B7D8DF /* TableViewCellAction.swift in Sources */,
 				2C05356E28F89CB200284E9E /* AppDelegate.swift in Sources */,
 				2C05357028F89CB200284E9E /* SceneDelegate.swift in Sources */,
+				2CB386D629295086005CBF5F /* CitiesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2C05357328F89CB200284E9E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C05357428F89CB200284E9E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C05357828F89CB400284E9E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +490,7 @@
 		};
 		2C05357F28F89CB400284E9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C028A19C528C5F5836AD5B7 /* Pods-pizzaD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +501,10 @@
 				INFOPLIST_FILE = pizzaD/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,14 +512,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nurkovyan.Pizza.pizzaD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2C05358028F89CB400284E9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29AF50673A542496702EB560 /* Pods-pizzaD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +534,10 @@
 				INFOPLIST_FILE = pizzaD/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +545,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nurkovyan.Pizza.pizzaD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +576,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C53DE79293765B7009B99C1 /* PizzaDModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C53DE7A293765B7009B99C1 /* PizzaDModel.xcdatamodel */,
+			);
+			currentVersion = 2C53DE7A293765B7009B99C1 /* PizzaDModel.xcdatamodel */;
+			path = PizzaDModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2C05356228F89CB200284E9E /* Project object */;
 }

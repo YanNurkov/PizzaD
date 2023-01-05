@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "imgonline-com-ua-Replace-color-qcZN3PNu7c-PhotoRoom.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "imgonline-com-ua-Replace-color-qcZN3PNu7c-PhotoRoom 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "imgonline-com-ua-Replace-color-qcZN3PNu7c-PhotoRoom 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
